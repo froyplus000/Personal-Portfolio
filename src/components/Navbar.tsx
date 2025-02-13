@@ -24,6 +24,11 @@ function Navbar() {
                 name="Activity"
                 id="activity"
               />
+              <Tooltips
+                tooltipContent="All About Me"
+                name="About Me"
+                id="about"
+              />
               {/* <Tooltips name="Projects" id="project" />
               <Tooltips
                 tooltipContent="My Socials"

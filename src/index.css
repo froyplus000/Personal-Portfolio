@@ -1,4 +1,5 @@
 @import "tailwindcss";
+/* @plugin 'tailwind-scrollbar-hide' */
 @plugin "daisyui" {
   themes: mytheme --default, mydark --prefersdark;
 }
@@ -79,4 +80,14 @@
 }
 .bentoImg {
   @apply rounded-2xl transition-all duration-500 bg-base-300 hover:rotate-z-1 hover:shadow-xl hover:shadow-error;
+}
+
+/* Hide scrollbar for WebKit browsers */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
 }

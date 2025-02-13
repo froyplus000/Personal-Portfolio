@@ -13,7 +13,7 @@ function Unit({ name, badgeColor, borderColor, number }: UnitProps) {
         Priority No.{number}
       </span>
       <div
-        className={`border-2 ${borderColor} text-[.7rem] lg:text-[1rem] h-content p-2 px-3 rounded-full `}
+        className={`border-2 ${borderColor} text-[.6rem] lg:text-[1rem] h-content p-1 px-3 rounded-full `}
       >
         {name}
       </div>
