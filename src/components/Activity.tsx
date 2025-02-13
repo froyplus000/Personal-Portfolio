@@ -16,8 +16,12 @@ function Activity() {
               Current Study
             </span>
             <div className="mt-3 text-center">
-              <h2 className="text-xl">Bachelor of Computer Science</h2>
-              <p className="text-[1.1rem] mt-1">Software Development</p>
+              <h2 className="text-[.9rem] lg:text-2xl">
+                Bachelor of Computer Science
+              </h2>
+              <p className="text-[.85rem] lg:text-xl mt-1">
+                Software Development
+              </p>
               {/* List of UNIT */}
               <div className="md:flex flex-col items-center justify-center">
                 <Unit
@@ -55,12 +59,12 @@ function Activity() {
               Current Project
             </span>
             <div className="flex flex-col items-center justify-between gap-2 mt-3 ">
-              <h1 className=" text-[.9rem] md:text-xl ">
+              <h1 className=" text-[.8rem] lg:text-2xl ">
                 Terminal Hacking Game
               </h1>
-              <p className=" text-[.9rem] md:text-xl text-center ">
+              <p className=" text-[.75rem] lg:text-xl text-center ">
                 Inspired By{" "}
-                <span className="badge badge-sm md:badge-md badge-success">
+                <span className="badge badge-xs md:badge-lg badge-success">
                   Fallout 4
                 </span>{" "}
                 mini game.
