@@ -52,7 +52,7 @@ function Activity() {
         <div className="col-span-2 row-span-2 md:col-span-4 md:row-span-3 xl:col-span-3 xl:row-span-4 bentoCard border-2 border-accent">
           <section className="flex flex-col items-center justify-center h-full">
             <span className="badge badge-accent badge-sm animate-pulse">
-              Currently Project
+              Current Project
             </span>
             <div className="flex flex-col items-center justify-between gap-2 mt-3 ">
               <h1 className=" text-[.9rem] md:text-xl ">
