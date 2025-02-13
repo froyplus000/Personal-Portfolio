@@ -1,0 +1,82 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: mytheme --default, mydark --prefersdark;
+}
+/* Theme */
+@plugin "daisyui/theme" {
+  name: "mytheme";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: oklch(98% 0.001 106.423);
+  --color-base-200: oklch(97% 0.001 106.424);
+  --color-base-300: oklch(92% 0.003 48.717);
+  --color-base-content: oklch(21% 0.006 56.043);
+  --color-primary: oklch(70% 0.01 56.259);
+  --color-primary-content: oklch(97% 0 0);
+  --color-secondary: oklch(87% 0 0);
+  --color-secondary-content: oklch(44% 0.011 73.639);
+  --color-accent: oklch(68% 0.162 75.834);
+  --color-accent-content: oklch(98% 0.026 102.212);
+  --color-neutral: oklch(14% 0.004 49.25);
+  --color-neutral-content: oklch(98% 0.001 106.423);
+  --color-info: oklch(71% 0.143 215.221);
+  --color-info-content: oklch(98% 0.019 200.873);
+  --color-success: oklch(70% 0.14 182.503);
+  --color-success-content: oklch(98% 0.014 180.72);
+  --color-warning: oklch(70% 0.213 47.604);
+  --color-warning-content: oklch(98% 0.016 73.684);
+  --color-error: oklch(64% 0.246 16.439);
+  --color-error-content: oklch(96% 0.015 12.422);
+  --radius-selector: 2rem;
+  --radius-field: 2rem;
+  --radius-box: 2rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.3125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 1;
+}
+
+@plugin "daisyui/theme" {
+  name: "mydark";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(30.857% 0.023 264.149);
+  --color-base-200: oklch(28.036% 0.019 264.182);
+  --color-base-300: oklch(26.346% 0.018 262.177);
+  --color-base-content: oklch(97% 0.001 106.424);
+  --color-primary: oklch(86.133% 0.141 139.549);
+  --color-primary-content: oklch(17.226% 0.028 139.549);
+  --color-secondary: oklch(73.375% 0.165 35.353);
+  --color-secondary-content: oklch(14.675% 0.033 35.353);
+  --color-accent: oklch(74.229% 0.133 311.379);
+  --color-accent-content: oklch(14.845% 0.026 311.379);
+  --color-neutral: oklch(24.731% 0.02 264.094);
+  --color-neutral-content: oklch(82.901% 0.031 222.959);
+  --color-info: oklch(86.078% 0.142 206.182);
+  --color-info-content: oklch(17.215% 0.028 206.182);
+  --color-success: oklch(86.171% 0.142 166.534);
+  --color-success-content: oklch(17.234% 0.028 166.534);
+  --color-warning: oklch(86.163% 0.142 94.818);
+  --color-warning-content: oklch(17.232% 0.028 94.818);
+  --color-error: oklch(82.418% 0.099 33.756);
+  --color-error-content: oklch(16.483% 0.019 33.756);
+  --radius-selector: 2rem;
+  --radius-field: 2rem;
+  --radius-box: 2rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.3125rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 1;
+}
+
+/* Custom Class for Styling */
+.bentoCard {
+  @apply rounded-2xl p-5 transition-all duration-500 bg-base-300  hover:rotate-z-1 hover:shadow-xl hover:shadow-accent;
+}
+.bentoImg {
+  @apply rounded-2xl transition-all duration-500 bg-base-300 hover:rotate-z-1 hover:shadow-xl hover:shadow-error;
+}
