@@ -8,8 +8,8 @@ function App() {
       <Navbar />
       <Hero />
       <Activity />
-      <About />
-      <Activity />
+      {/* <About /> */}
+      {/* <Activity /> */}
     </section>
   );
 }
