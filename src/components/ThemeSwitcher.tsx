@@ -1,11 +1,9 @@
 import { useState, useEffect } from "react";
 
 function ThemeSwitcher() {
-  const dark: string = "mydark";
+  const dark: string = "dark";
   // Load theme from localStorage or default to "mytheme"
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") || "mytheme"
-  );
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
 
   useEffect(() => {
     // Apply the theme to the <html> tag
@@ -13,7 +11,7 @@ function ThemeSwitcher() {
   }, [theme]);
 
   const toggleTheme = () => {
-    const newTheme = theme === "mytheme" ? dark : "mytheme";
+    const newTheme = theme === "light" ? dark : "light";
     setTheme(newTheme);
     localStorage.setItem("theme", newTheme);
   };
@@ -30,7 +28,7 @@ function ThemeSwitcher() {
 
         {/* Sun Icon */}
         <svg
-          className="swap-off h-10 w-7 md:w-10 fill-current "
+          className="swap-off h-10 w-7 md:w-10 fill-current hover:animate-ping"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
         >

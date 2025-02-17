@@ -5,10 +5,16 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-center gap-2 w-screen lg:w-[80dvw] mx-auto sticky top-0 md:py-5 backdrop-blur-lg rounded-full px-10 z-10">
       <div className="navbar w-full ">
-        <div className="flex-1">
-          <h1 className=" text-[1.2rem] md:text-3xl font-bold hover:text-accent transition-all duration-500 cursor-default ">
+        <div className="flex-1 tooltip tooltip-left tooltip-primary">
+          <div className="tooltip-content duration-500 ">
+            <div className="text-xl px-2 font-bold">Folk</div>
+          </div>
+          <a
+            href="#hero"
+            className=" text-[1.2rem] md:text-3xl font-bold hover:text-accent basetransition cursor-default "
+          >
             Pattarapol Tantechasa
-          </h1>
+          </a>
         </div>
 
         {/* Link */}
@@ -24,11 +30,11 @@ function Navbar() {
                 name="Activity"
                 id="activity"
               />
-              {/* <Tooltips
+              <Tooltips
                 tooltipContent="All About Me"
                 name="About Me"
                 id="about"
-              /> */}
+              />
               {/* <Tooltips name="Projects" id="project" />
               <Tooltips
                 tooltipContent="My Socials"

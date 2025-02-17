@@ -1,46 +1,68 @@
+import Interest from "./Interest.tsx";
 function About() {
   return (
     <section
       id="about"
-      className="flex flex-col min-h-screen max-h-content w-[80dvw] mx-auto snap-start items-center 
-      justify-center text-3xl font-bold gap-10 cursor-default overflow-y-auto scrollbar-hide pt-30"
+      className="flex flex-col min-h-screen max-h-content w-[95dvw] md:w-[80dvw] xl:w-[65dvw] mx-auto snap-start items-center 
+      justify-center text-3xl font-bold gap-10 cursor-default overflow-y-auto scrollbar-hide pt-24 md:pt-40"
     >
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold">About Me</h1>
-        <ul className="mt-4 px-5 text-[.8rem] ">
-          <li>
-            🎓 I’m currently studying Bachelor of Computer Science degree with
-            Swinburne University of Technology.{" "}
-          </li>
-          <li>💻 I'm majoring in Software Development.</li>
-          <li>
-            🚀 I'm learning and pursuing job positions like Full Stack
-            Developer, Mobile Developer, or iOS Developer.
-          </li>
-          <li>
-            🎮 I'm also interested in Game Development, which I will spend my
-            free time learning about.{" "}
-          </li>
-        </ul>
-      </div>
-      <div className="divider"></div>
-      <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl font-bold">Education</h1>
-        <p className="mt-4 px-5 text-lg text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum cumque
-          dolores, debitis modi consequatur placeat numquam illum tempore
-          dignissimos nam sint. Dolore rerum animi quia libero laboriosam,
-          impedit cupiditate ducimus placeat officiis at voluptas sequi
-          doloribus tempora quibusdam expedita, corrupti tenetur suscipit
-          voluptatem accusamus officia. Beatae cumque, consequatur explicabo
-          necessitatibus sapiente temporibus aut officiis distinctio
-          perspiciatis quia aspernatur hic voluptates iure nam a dicta neque
-          error. Eveniet, id vero minima sunt provident esse pariatur quam fuga,
-          reiciendis magnam nisi? Quis culpa officia possimus doloribus quod
-          recusandae, aliquam rerum, maxime esse ad laborum alias consectetur
-          expedita optio ducimus nam minus sequi.
+      {/* About Me - Section */}
+      <section className="flex flex-col items-center justify-center">
+        <h1 className="text-4xl font-bold font-primary text-success border-2 rounded-4xl px-10 py-2 shadow-lg shadow-primary inset-shadow-sm inset-shadow-primary hover:bg-success hover:text-success-content hover:-rotate-3 hover:text-6xl hover:shadow-2xl basetransition">
+          About Me
+        </h1>
+        <p className="mt-10 px-5 text-xl/9">
+          I'm currently studying Bachelor of{" "}
+          <span className="text-green-500 font-mono hover:px-4 hover:py-1 hover:bg-accent hover:rounded-full hover:text-accent-content basetransition">{`Computer Science`}</span>
+          , majoring in{" "}
+          <span className=" text-accent font-third font-bold underline underline-offset-4 decoration-wavy hover:text-2xl basetransition">
+            Software Development
+          </span>{" "}
+          at Swinburne University of Technology,{" "}
+          <span className="underline underline-offset-4 decoration-error hover:text-3xl basetransition ">
+            Melbourne
+          </span>
+          , Australia. <br />
         </p>
-      </div>
+        {/* Accordion */}
+        <section className="join join-vertical p-3 mt-3 ">
+          {/* Professional Purpose */}
+          <div className="collapse collapse-arrow join-item border-accent border-2 px-2 pb-3 hover:border-4 basetransition">
+            <input type="radio" name="my-accordion" />
+            <h2 className="collapse-title text-xl md:text-2xl md:text-center font-primary underline underline-offset-8 decoration-wavy decoration-error text-center">
+              Professional Purpose
+            </h2>
+            <p className="collapse-content text-lg text-center">
+              I'm passionate about building software products that solve
+              real-world problems and improve people's lives.
+            </p>
+          </div>
+          {/* Background */}
+          <div className="collapse collapse-arrow join-item border-accent border-2 shadow-xl px-2 pb-3  hover:border-4 basetransition">
+            <input type="radio" name="my-accordion" />
+            <h2 className="collapse-title text-xl md:text-2xl font-primary underline underline-offset-8 decoration-wavy decoration-info text-center">
+              Background
+            </h2>
+            <p className="collapse-content text-lg text-center">
+              Technology has always fascinated me from playing games and
+              exploring new innovations to researching cutting-edge
+              developments. <br />
+              <br />
+              My journey into software development began with a Certificate IV
+              in Web Development, which deepened my interest in coding and
+              problem-solving. <br />
+              <br />
+              This motivated me to pursue a Bachelor of Computer Science
+              majoring in Software Development at Swinburne University, where
+              I'm learning new knowledge and improving my skills to become a
+              Software Engineer.
+            </p>
+          </div>
+        </section>
+      </section>
+      <div className="divider"></div>
+      <Interest />
+
       <div className="divider"></div>
     </section>
   );

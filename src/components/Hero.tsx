@@ -10,7 +10,7 @@ function Hero() {
       <div className="flex flex-col items-start justify-center px-3">
         <h1 className="text-2xl md:text-3xl font-bold text-left transition-all">
           Hello, I'm{" "}
-          <span className="text-accent">
+          <span className="text-accent hover:text-4xl transition-all duration-500">
             <Typewriter
               words={[
                 "Folk 👋🏻",
@@ -29,9 +29,16 @@ function Hero() {
           </span>
         </h1>
         <p className="text-xl md:text-3xl mt-5">
-          I want to building <span className="text-accent">world-class</span>{" "}
+          I want to building{" "}
+          <span className="text-accent font-primary hover:text-4xl transition-all duration-500 font-bold underline underline-offset-4 decoration-wavy decoration-error">
+            world-class
+          </span>{" "}
           software to
-          <span className="text-accent"> improve</span> lives. 🚀
+          <span className="text-accent font-secondary hover:text-5xl transition-all duration-500  decoration-error ">
+            {" "}
+            improve
+          </span>{" "}
+          lives. 🚀
         </p>
       </div>
     </section>

@@ -10,7 +10,8 @@ function Tooltips({ tooltipContent, name, id }: TooltipProps) {
   return (
     <section
       className={`${
-        tooltipContent && "tooltip tooltip-bottom tooltip-secondary"
+        tooltipContent &&
+        "tooltip tooltip-bottom tooltip-secondary hover:rotate-5 transition-all duration-500"
       }`}
       data-tip="👋"
     >
