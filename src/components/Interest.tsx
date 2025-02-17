@@ -1,5 +1,3 @@
-import React from "react";
-
 function Interest() {
   return (
     <section className="flex flex-col items-center justify-center w-full h-fit md:h-[40dvh] gap-3 md:mt-3">
