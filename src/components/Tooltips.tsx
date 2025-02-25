@@ -25,7 +25,7 @@ function Tooltips({ tooltipContent, name, id }: TooltipProps) {
 
       <a
         href={`#${id}`}
-        className="btn btn-primary transition-all shadow-lg duration-500"
+        className="btn btn-sm btn-primary transition-all shadow-lg duration-500"
       >
         {name}
       </a>
