@@ -1,7 +1,7 @@
 // import { FaGithub, FaLinkedin } from "../constants/Icon.tsx";
 function Footer() {
   return (
-    <footer className="footer flex sticky bottom-0 bg-neutral-800 text-neutral-content items-center justify-center py-3 px-6 cursor-default">
+    <footer className="footer hidden w-[100dvw] xl:flex sticky bottom-0 bg-primary text-primary-content items-center justify-center py-3 px-6 cursor-default">
       <aside className="items-center">
         <p>Made by Pattarapol Tantechasa</p>
       </aside>

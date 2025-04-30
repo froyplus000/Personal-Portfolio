@@ -35,9 +35,13 @@ function Navbar() {
                 name="About Me"
                 id="about"
               />
-              <Tooltips name="Projects" id="project" />
               <Tooltips
-                tooltipContent="My Socials"
+                name="Projects"
+                tooltipContent="My Past Projects"
+                id="project"
+              />
+              <Tooltips
+                tooltipContent="My Contacts and Socials"
                 name="Contact"
                 id="contact"
               />
