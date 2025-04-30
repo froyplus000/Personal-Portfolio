@@ -18,7 +18,7 @@ function Projects() {
         <SectionHeading title="Projects" />
       </div>
       {/* Carousel */}
-      <section className="carousel w-[90dvw] md:w-[75dvw] mt-6 border-2 border-accent rounded-4xl min-h-fit ">
+      <section className="carousel w-[90dvw] md:w-[55dvw] mt-6 border-2 border-accent rounded-4xl min-h-fit ">
         {/* PropertyLens */}
         <ProjectCard
           id="PropertyLens"
@@ -95,7 +95,7 @@ function Projects() {
           2. Lunatia Project
         </a>
       </section>
-      <div className="divider"></div>
+      {/* <div className="divider"></div> */}
     </section>
   );
 }

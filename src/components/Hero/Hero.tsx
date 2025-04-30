@@ -43,9 +43,9 @@ function Hero() {
           lives. 🚀
         </p>
 
-        <div className="w-full text-center mt-4 md:mt-5 flex gap-3 md:pl-5 md:items-center">
+        <div className="w-full text-center mt-4 md:mt-5 flex gap-3 md:items-center">
           <a
-            className="btn btn-sm md:btn-md btn-primary"
+            className="btn btn-sm md:btn-md btn-primary hover:btn-accent basetransition"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/froyplus000"
@@ -53,7 +53,7 @@ function Hero() {
             <FaGithub className="text-2xl" />
           </a>
           <a
-            className="btn btn-sm md:btn-md btn-primary"
+            className="btn btn-sm md:btn-md btn-primary hover:btn-accent basetransition"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/pattarapol-tantechasa-6275a1121/"
@@ -61,11 +61,11 @@ function Hero() {
             <FaLinkedin className="text-2xl" />
           </a>
           <a
-            className="btn btn-sm md:btn-md btn-primary"
+            className="btn btn-sm md:btn-md btn-primary hover:btn-accent basetransition"
             download
             href="/pattarapol-tantechasa-resume.pdf"
           >
-            <span className="text-xl">Resume</span>
+            <span className="text-xl">Download my Resume</span>
           </a>
         </div>
       </div>

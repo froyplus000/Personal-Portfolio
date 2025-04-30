@@ -3,7 +3,7 @@ import Tooltips from "../Tooltips.tsx";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-center gap-2 w-screen lg:w-[80dvw] mx-auto sticky top-0 md:py-5 backdrop-blur-lg rounded-full px-10 z-10">
+    <nav className="flex items-center justify-center gap-2 w-screen lg:w-[80dvw] mx-auto sticky top-0 md:py-3 backdrop-blur-lg rounded-full px-10 z-10">
       <div className="navbar w-full ">
         <div className="flex-1 tooltip tooltip-bottom md:tooltip-left tooltip-primary">
           <div className=" tooltip-content duration-500 ">
@@ -25,11 +25,7 @@ function Navbar() {
             {/* Link -> btn */}
             <div className="hidden lg:flex items-center justify-center gap-5">
               <Tooltips tooltipContent="To The TOP" name="Home" id="hero" />
-              <Tooltips
-                tooltipContent="Where I'm up to?"
-                name="Activity"
-                id="activity"
-              />
+
               <Tooltips
                 tooltipContent="All About Me"
                 name="About Me"
@@ -41,13 +37,10 @@ function Navbar() {
                 id="project"
               />
               <Tooltips
-                tooltipContent="My Contacts and Socials"
-              <Tooltips name="Projects" id="project" />
-              {/* <Tooltips
-                tooltipContent="My Socials"
-                name="Contact"
-                id="contact"
-              /> */}
+                tooltipContent="Where I'm up to?"
+                name="Activity"
+                id="activity"
+              />
             </div>
           </li>
         </ul>
