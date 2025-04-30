@@ -65,7 +65,7 @@ function Hero() {
             download
             href="/pattarapol-tantechasa-resume.pdf"
           >
-            <span className="text-xl">Download my Resume</span>
+            <span className="text-xl">Resume</span>
           </a>
         </div>
       </div>
