@@ -36,11 +36,11 @@ function Navbar() {
                 id="about"
               />
               <Tooltips name="Projects" id="project" />
-              <Tooltips
+              {/* <Tooltips
                 tooltipContent="My Socials"
                 name="Contact"
                 id="contact"
-              />
+              /> */}
             </div>
           </li>
         </ul>

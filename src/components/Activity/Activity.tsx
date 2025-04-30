@@ -6,7 +6,7 @@ function Activity() {
   return (
     <section
       id="activity"
-      className="flex overflow-y-scroll h-screen w-screen snap-start items-center justify-center text-3xl font-bold px-4 py-10"
+      className="flex overflow-y-scroll h-screen w-screen items-center justify-center text-3xl font-bold px-4 py-10"
     >
       <div className=" h-[80dvh] md:h-[70dvh] w-[95dvw] md:w-[70dvw] lg:w-[65dvw] grid grid-cols-6 grid-rows-8 md:grid-cols-6 md:grid-rows-10 xl:grid-cols-8 xl:grid-rows-10 gap-4 ">
         {/* Current Study */}

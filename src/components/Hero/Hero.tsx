@@ -1,10 +1,11 @@
 import { Typewriter } from "react-simple-typewriter";
 import Portrait from "./Portrait.tsx";
+import { FaGithub, FaLinkedin } from "../../constants/Icon.tsx";
 function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col h-screen w-[80dvw] mx-auto snap-start items-center justify-center text-3xl font-bold gap-10 cursor-default"
+      className="flex flex-col h-screen w-[80dvw] mx-auto items-center justify-center text-3xl font-bold gap-10 cursor-default"
     >
       <Portrait />
       <div className="flex flex-col items-start justify-center px-3">
@@ -41,6 +42,32 @@ function Hero() {
           </span>{" "}
           lives. 🚀
         </p>
+
+        <div className="w-full text-center mt-4 md:mt-5 flex gap-3 md:pl-5 md:items-center">
+          <a
+            className="btn btn-sm md:btn-md btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/froyplus000"
+          >
+            <FaGithub className="text-2xl" />
+          </a>
+          <a
+            className="btn btn-sm md:btn-md btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/pattarapol-tantechasa-6275a1121/"
+          >
+            <FaLinkedin className="text-2xl" />
+          </a>
+          <a
+            className="btn btn-sm md:btn-md btn-primary"
+            download
+            href="/pattarapol-tantechasa-resume.pdf"
+          >
+            <span className="text-xl">Resume</span>
+          </a>
+        </div>
       </div>
     </section>
   );

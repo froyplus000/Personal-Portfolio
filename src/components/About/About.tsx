@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="flex flex-col min-h-screen w-[95dvw] md:w-[80dvw] xl:w-[65dvw] mx-auto snap-start items-center 
+      className="flex flex-col min-h-screen w-[95dvw] md:w-[80dvw] xl:w-[65dvw] mx-auto items-center 
       justify-center text-3xl font-bold gap-10 cursor-default overflow-y-auto scrollbar-hide pt-24 md:pt-40"
     >
       {/* About Me - Section */}
