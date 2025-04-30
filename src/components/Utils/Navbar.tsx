@@ -42,9 +42,12 @@ function Navbar() {
               />
               <Tooltips
                 tooltipContent="My Contacts and Socials"
+              <Tooltips name="Projects" id="project" />
+              {/* <Tooltips
+                tooltipContent="My Socials"
                 name="Contact"
                 id="contact"
-              />
+              /> */}
             </div>
           </li>
         </ul>

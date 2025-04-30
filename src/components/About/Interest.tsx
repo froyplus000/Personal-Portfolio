@@ -1,10 +1,7 @@
 import SectionHeading from "../Utils/SectionHeading.tsx";
 function Interest() {
   return (
-    <section
-      className="flex flex-col items-center justify-center w-full h-fit md:h-[40dvh] gap-3 mb-2 md:mt-3 tooltip tooltip-error"
-      data-tip="Want to Learn"
-    >
+    <section className="flex flex-col items-center justify-center w-full h-fit md:h-[40dvh] gap-3 mb-2 md:mt-3">
       <SectionHeading title="Interests & Goals" />
 
       <div className="flex flex-col md:flex-row items-center justify-center w-full h-fit md:h-[40dvh] gap-3 mt-3 md:mt-5">

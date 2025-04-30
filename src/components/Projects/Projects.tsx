@@ -11,7 +11,7 @@ function Projects() {
   return (
     <section
       id="project"
-      className="flex flex-col overflow-y-auto scrollbar-hide min-h-screen w-screen snap-start items-center justify-center
+      className="flex flex-col overflow-y-auto scrollbar-hide min-h-screen w-screen  items-center justify-center
        text-3xl font-bold px-4 py-10 mb-6"
     >
       <div className=" mt-[10dvh]">
