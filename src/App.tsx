@@ -9,10 +9,12 @@ function App() {
   return (
     <section className=" h-screen w-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth overflow-hidden">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Activity />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Activity />
+      </main>
       {/* <Contacts /> */}
       <Footer />
     </section>

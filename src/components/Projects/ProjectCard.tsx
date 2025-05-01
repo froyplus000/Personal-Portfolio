@@ -51,6 +51,7 @@ function ProjectCard({
             <img
               src={imageArray[currentIndex]}
               className="w-full xl:w-[70%] mx-auto rounded-md basetransition"
+              alt="Project Screenshots images"
             />
             {/* Navigation Buttons */}
             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
