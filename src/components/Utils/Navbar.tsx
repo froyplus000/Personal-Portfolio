@@ -24,10 +24,10 @@ function Navbar() {
             <ThemeSwitcher />
             {/* Link -> btn */}
             <div className="hidden lg:flex items-center justify-center gap-5">
-              <Tooltips tooltipContent="To The TOP" name="Home" id="hero" />
+              <Tooltips tooltipContent="" name="Home" id="hero" />
 
               <Tooltips
-                tooltipContent="All About Me"
+                tooltipContent="Learn more About Me"
                 name="About Me"
                 id="about"
               />
@@ -37,7 +37,7 @@ function Navbar() {
                 id="project"
               />
               <Tooltips
-                tooltipContent="Where I'm up to?"
+                tooltipContent="What I'm up to?"
                 name="Activity"
                 id="activity"
               />

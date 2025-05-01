@@ -25,7 +25,7 @@ function About() {
           , Australia. <br />
         </p>
         {/* Accordion */}
-        <section className="join join-vertical p-3 mt-3 ">
+        <section className="join join-vertical p-3 mt-3 lg:w-[55dvw]">
           {/* Professional Purpose */}
           <div className="collapse collapse-arrow join-item border-accent border-2 px-2 pb-3 hover:border-4 basetransition">
             <input type="radio" name="my-accordion" />
