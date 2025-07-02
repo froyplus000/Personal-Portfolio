@@ -31,7 +31,7 @@ function Hero() {
           </span>
         </h1>
         <p className="text-xl md:text-3xl mt-5">
-          I want to building{" "}
+          I want to build{" "}
           <span className="text-accent font-primary hover:text-4xl transition-all duration-500 font-bold underline underline-offset-4 decoration-wavy decoration-error">
             world-class
           </span>{" "}
