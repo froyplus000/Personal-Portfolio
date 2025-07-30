@@ -17,9 +17,9 @@ function Hero() {
                 // "Folk 👋🏻",
                 "a Computer Science Student.",
                 "looking for Internship.",
-                "pursuing Software Engineer. 💻",
-                "pursuing Full-Stack Developer. 🧑🏻‍💻",
-                "pursuing Mobile Developer. 📱",
+                "pursuing Software Engineer 💻",
+                "pursuing Penetration Tester 📱",
+                "pursuing Cyber Security Engineer 🧑🏻‍💻",
               ]}
               cursorStyle="|"
               loop={0} // Infinite loop
