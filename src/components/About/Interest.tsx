@@ -22,18 +22,18 @@ function Interest() {
             <li className="mt-1">Deployment to AWS Cloud Services</li>
           </ol>
         </div>
-        {/* Mobile Dev */}
+        {/* Cyber Security*/}
         <div className="border-1 border-primary h-full w-full rounded-3xl flex flex-col p-4 items-center justify-center md:justify-start basetransition hover:bg-primary hover:border-4 hover:border-accent hover:text-primary-content">
-          <h1 className="text-2xl">Mobile Development</h1>
+          <h1 className="text-2xl">Cyber Security</h1>
           <div className="mt-3 flex justify-center items-center gap-2">
-            <p className="badge badge-sm badge-accent">React Native</p>
-            <p className="badge badge-sm badge-accent">Flutter</p>
+            <p className="badge badge-sm badge-accent">Ethical Hacking</p>
+            <p className="badge badge-sm badge-accent">Digital Forensics</p>
           </div>
           <ol className="list-disc text-lg p-4 pl-7">
-            <li className="mt-1">
-              Cross-Plaform Mobile application development
-            </li>
-            <li className="mt-1">Deployment to AppStore and PlayStore</li>
+            <li className="mt-1">Penetration Tester</li>
+            <li className="mt-1">Cyber Security Analyst</li>
+            <li className="mt-1">Security Engineer</li>
+            <li className="mt-1">Security Architect</li>
           </ol>
         </div>
         {/* Game Dev */}

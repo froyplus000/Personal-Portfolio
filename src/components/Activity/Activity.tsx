@@ -25,25 +25,25 @@ function Activity() {
               {/* List of UNIT */}
               <div className="md:flex flex-col items-center justify-center">
                 <Unit
-                  name="Data Structures and Patterns"
+                  name="Back End Developer Intern at Focus Bear"
                   badgeColor="badge-error"
                   borderColor="border-error"
                   number="1"
                 />
                 <Unit
-                  name="Software Architecture and Design"
+                  name="Concurrent Programming"
                   badgeColor="badge-accent"
                   borderColor="border-accent"
                   number="2"
                 />
                 <Unit
-                  name="Interface Design and Development"
+                  name="Capstone Project - Part 1"
                   badgeColor="badge-success"
                   borderColor="border-success"
                   number="3"
                 />
                 <Unit
-                  name="Network Security and Resilience"
+                  name="Software Testing and Reliability"
                   badgeColor="badge-info"
                   borderColor="border-info"
                   number="4"
